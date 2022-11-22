@@ -1,0 +1,81 @@
+
+.ai_box::before,
+.ai_box::after{
+	position: absolute;
+	bottom: 0;
+	height: 25px;
+	transition: transform .2s ease-out;
+	content: "";
+}
+
+.ai_box::before {
+	width: 20px;
+	left: -7px;
+	background-color: skyblue;
+	border-bottom-right-radius: 16px 14px;
+}
+
+.ai_box::after {
+	width: 26px;
+	left: -27px;
+	background-color: white;
+	border-bottom-right-radius: 10px;
+}
+
+.human_box::before,
+.human_box::after{
+	position: absolute;
+	bottom: 0;
+	height: 25px;
+	transition: transform .2s ease-out;
+	content: "";
+}
+
+.human_box::before {
+	width: 20px;
+	right: -7px;
+	background-color: #eaeaea;
+	border-bottom-left-radius: 16px 14px;
+}
+
+.human_box::after {
+	width: 26px;
+	right: -27px;
+	background-color: white;
+	border-bottom-left-radius: 10px;
+}
+
+.scrollbarbackgroundgrey {
+    scrollbar-color: #87CEEB  #eaeaea;
+    height: auto;
+    max-height: 85vh;
+    margin-right: 15px;
+}
+
+.scrollable {
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    display: block;
+}
+
+
+
+.scrollablenoscrollbar {
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    display: block;
+}
+
+.btn {
+	background-color: skyblue; 
+	border: none; 
+	color: white;
+	padding: 6px 10px;
+	font-size: 16px;
+	cursor: pointer;
+	border-radius: 25px;
+}
+
+.btn:hover {
+	background-color: blue;
+}
